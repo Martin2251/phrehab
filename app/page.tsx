@@ -14,8 +14,8 @@ const Home: NextPage = () => {
     <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-gray-100">
        <ToastContainer />
       <Head>
-        <title>Atom Digital</title>
-        <meta name="description" content="Atom Digital - A mobile responsive site" />
+        <title>Phrehab</title>
+        <meta name="description" content="Phrehab - A mobile responsive site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
