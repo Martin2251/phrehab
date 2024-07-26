@@ -2,7 +2,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '@/components/Header/Header'
-import InfoSection from '@/components/InfoSection/InfoSection'
+import InfoSection from '@/components/InfoSection/Infosection'
 import { ToastContainer } from 'react-toastify'
 import ContactForm from '@/components/ContactForm/ContactForm'
 
