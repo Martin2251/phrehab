@@ -26,8 +26,7 @@ const Home: NextPage = () => {
         <h1 className="text-6xl font-bold mt-6">
           Welcome to <a className="text-blue-600" href="#">Phrehab</a>
         </h1>
-      
-      <Reviews  />
+     
 
         <InfoSection />
         <ContactForm  />
