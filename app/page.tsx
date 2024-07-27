@@ -5,6 +5,7 @@ import Header from '@/components/Header/Header'
 import InfoSection from '@/components/InfoSection/Infosection'
 import { ToastContainer } from 'react-toastify'
 import ContactForm from '@/components/ContactForm/ContactForm'
+import Reviews from '@/components/Reviews/Reviews'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
           Welcome to <a className="text-blue-600" href="#">Phrehab</a>
         </h1>
       
+      <Reviews  />
 
         <InfoSection />
         <ContactForm  />
