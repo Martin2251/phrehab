@@ -6,6 +6,7 @@ import InfoSection from '@/components/InfoSection/Infosection'
 import { ToastContainer } from 'react-toastify'
 import ContactForm from '@/components/ContactForm/ContactForm'
 import Reviews from '@/components/Reviews/Reviews'
+import CalendlyWidget from '@/components/Calendy/Widget'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
@@ -29,6 +30,15 @@ const Home: NextPage = () => {
      
 
         <InfoSection />
+         <section className="w-full max-w-4xl mt-12">
+          <h2 className="text-4xl font-bold mb-6 text-gray-800">
+            Schedule Your Appointment
+          </h2>
+          <CalendlyWidget 
+            url="https://calendly.com/martinlowe673/60min" 
+            height={630}
+          />
+        </section>
         <ContactForm  />
       </main>
 
