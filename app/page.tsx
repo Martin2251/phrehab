@@ -7,13 +7,15 @@ import { ToastContainer } from 'react-toastify'
 import ContactForm from '@/components/ContactForm/ContactForm'
 import Reviews from '@/components/Reviews/Reviews'
 import CalendlyWidget from '@/components/Calendy/Widget'
+import Hero from '@/components/Hero/Hero'
+import FindUs from '@/components/FindUs/FindUs'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
 
   return (
    
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-gray-100">
+    <div className="">
        <ToastContainer />
       <Head>
         <title>Phrehab</title>
@@ -21,32 +23,29 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-6 text-center">
-        <h1 className="text-6xl font-bold mt-6">
-          Welcome to <a className="text-blue-600" href="#">Phrehab</a>
-        </h1>
+
+      <main className="">
+        <Hero  />
+        <FindUs  />
+
+
      
 
-        <InfoSection />
-         <section className="w-full max-w-4xl mt-12">
-          <h2 className="text-4xl font-bold mb-6 text-gray-800">
-            Schedule Your Appointment
-          </h2>
-          <CalendlyWidget 
+
+        
+          {/* <CalendlyWidget 
             url="https://calendly.com/martinlowe673/60min" 
             height={630}
-          />
-        </section>
-        <ContactForm  />
+          /> */}
+
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
+      {/* <footer className="flex h-24 w-full items-center justify-center border-t">
         <p className="text-gray-600">
           © {currentYear} PHREHAB. All rights reserved. Made by Martin Lowe
         </p>
-      </footer>
+      </footer> */}
     </div>
   )
 }
