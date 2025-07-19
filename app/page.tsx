@@ -34,10 +34,10 @@ const Home: NextPage = () => {
 
 
         
-          {/* <CalendlyWidget 
-            url="https://calendly.com/martinlowe673/60min" 
+          <CalendlyWidget 
+            url="https://calendly.com/phsportsrehab/1-hour-appointment" 
             height={630}
-          /> */}
+          />
 
       </main>
 
