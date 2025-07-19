@@ -1,11 +1,11 @@
 // pages/index.tsx
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from '@/components/Header/Header'
-import InfoSection from '@/components/InfoSection/Infosection'
+
+
 import { ToastContainer } from 'react-toastify'
-import ContactForm from '@/components/ContactForm/ContactForm'
-import Reviews from '@/components/Reviews/Reviews'
+
+
 import CalendlyWidget from '@/components/Calendy/Widget'
 import Hero from '@/components/Hero/Hero'
 import FindUs from '@/components/FindUs/FindUs'
