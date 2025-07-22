@@ -59,7 +59,7 @@ const FindUs = () => {
             <div className="relative h-48 sm:h-56 lg:h-64 xl:h-72 rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="" // You'll need to add this image
-                alt="LKD Physio clinic exterior - Victorian brick house"
+                alt=""
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -70,7 +70,7 @@ const FindUs = () => {
             <div className="relative h-48 sm:h-56 lg:h-64 xl:h-72 rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="/clinic-interior.jpg" // You'll need to add this image
-                alt="LKD Physio clinic interior - treatment room with blue massage table"
+                alt=""
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
                 sizes="(max-width: 1024px) 100vw, 50vw"
