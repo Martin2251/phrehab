@@ -43,12 +43,12 @@ const FindUs = () => {
               </div>
               
               <div className="pt-4 lg:pt-6">
-                <Link 
+                {/* <Link 
                   href="/book-appointment"
                   className="inline-block bg-black text-white px-8 py-3 sm:px-10 sm:py-4 rounded-full text-base sm:text-lg font-medium hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 transform"
                 >
                   Book Now
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

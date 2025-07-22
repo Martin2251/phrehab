@@ -47,12 +47,12 @@ export default function Hero() {
           Restoring Strength and Reducing Pain
         </p>
         
-        <Link 
+        {/* <Link 
           href="/book-appointment"
           className="inline-block bg-black text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors duration-300 shadow-lg hover:shadow-xl"
         >
           Book an Appointment
-        </Link>
+        </Link> */}
       </div>
 
       {/* Decorative elements */}
