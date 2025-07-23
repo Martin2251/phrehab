@@ -25,10 +25,10 @@ const FindUs = () => {
                     Address:
                   </h3>
                   <p className="text-base sm:text-lg text-gray-600">
-                   gyMNATION
+                   Gymnation 26 Druid St, London SE1 2EY
                   </p>
                   <p className="text-base sm:text-lg text-gray-600">
-                    SE1
+                    SE1 2EY
                   </p>
                 </div>
                 
