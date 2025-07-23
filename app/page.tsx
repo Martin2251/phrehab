@@ -9,6 +9,7 @@ import { ToastContainer } from 'react-toastify'
 import CalendlyWidget from '@/components/Calendy/Widget'
 import Hero from '@/components/Hero/Hero'
 import FindUs from '@/components/FindUs/FindUs'
+import ImageSection from '@/components/ImageSection/ImageSection'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
@@ -38,6 +39,7 @@ const Home: NextPage = () => {
             url="https://calendly.com/phsportsrehab/1-hour-appointment" 
             height={630}
           />
+          <ImageSection  />
 
       </main>
 
