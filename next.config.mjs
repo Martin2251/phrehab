@@ -33,10 +33,17 @@ const nextConfig = {
             value: 'strict-origin-when-cross-origin'
           },
           // Content Security Policy (allows Calendly)
-          {
-            key: 'Content-Security-Policy',
-            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://assets.calendly.com; style-src 'self' 'unsafe-inline' https://assets.calendly.com; img-src 'self' data: https:; font-src 'self' https:; connect-src 'self' https://calendly.com https://*.calendly.com; frame-src https://calendly.com;"
-          }
+        {
+  key: 'Content-Security-Policy',
+  value:
+    "default-src 'self'; " +
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://assets.calendly.com; " +
+    "style-src 'self' 'unsafe-inline' https://assets.calendly.com; " +
+    "img-src 'self' data: https:; " +
+    "font-src 'self' https:; " +
+    "connect-src 'self' https://calendly.com https://*.calendly.com; " +
+    "frame-src https://calendly.com https://www.google.com https://maps.google.com;"
+}
         ]
       }
     ]

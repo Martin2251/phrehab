@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -55,27 +57,19 @@ const FindUs = () => {
           
           {/* Right Column - Images */}
           <div className="space-y-4 lg:space-y-6">
-            {/* Top Image - Exterior */}
-            <div className="relative h-48 sm:h-56 lg:h-64 xl:h-72 rounded-lg overflow-hidden shadow-lg">
-              <Image
-                src="" // You'll need to add this image
-                alt=""
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-            
-            {/* Bottom Image - Interior */}
-            <div className="relative h-48 sm:h-56 lg:h-64 xl:h-72 rounded-lg overflow-hidden shadow-lg">
-              <Image
-                src="/clinic-interior.jpg" // You'll need to add this image
-                alt=""
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
+    
+
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4442.139825158339!2d-0.08459536130298116!3d51.504330483466575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876039c80dde83d%3A0xb260ae9d8c72d7b!2sGym%20Nation%20%7C%20London%20Bridge!5e0!3m2!1sen!2suk!4v1753253507715!5m2!1sen!2suk" 
+        width="600" 
+        height="450" 
+        style={{ border: 0 }}
+        allowFullScreen 
+        loading="lazy" 
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+       
+          
           </div>
         </div>
       </div>
