@@ -12,7 +12,7 @@ const FindUs = () => {
           {/* Left Column - Text Content */}
           <div className="space-y-6 lg:space-y-8">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
-              About the Clinic
+             Find Us
             </h2>
             
             <div className="space-y-4 lg:space-y-6">

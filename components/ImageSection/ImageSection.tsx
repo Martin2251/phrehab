@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const ImageSection = () => {
+const About = () => {
   return (
  <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,34 +33,37 @@ const ImageSection = () => {
             </div>
           </div>
           
-          {/* Right Column - Images */}
-          <div className="space-y-4 lg:space-y-6">
-            {/* Top Image - Exterior */}
-            <div className="relative h-48 sm:h-56 lg:h-64 xl:h-72 rounded-lg overflow-hidden shadow-lg">
-              <Image
-                src="/images/phimage2.png" 
-                alt=""
-                fill
-                className="object-contain hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-            
-            {/* Bottom Image - Interior */}
-            <div className="relative h-48 sm:h-56 lg:h-64 xl:h-72 rounded-lg overflow-hidden shadow-lg">
-              <Image
-                src="/images/phimage1.png" // You'll need to add this image
-                alt=""
-                fill
-                className="object-contain hover:scale-105 transition-transform duration-300"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-              />
-            </div>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+  {/* Left Image */}
+  <div className="relative h-64 sm:h-80 lg:h-96 xl:h-[28rem] rounded-lg overflow-hidden shadow-lg">
+    <Image
+      src="/images/phimage2.png" 
+      alt=""
+      fill
+      className="object-cover hover:scale-105 transition-transform duration-300"
+      sizes="(max-width: 768px) 100vw, 50vw"
+    />
+  </div>
+  
+  {/* Right Image */}
+  <div className="relative h-64 sm:h-80 lg:h-96 xl:h-[28rem] rounded-lg overflow-hidden shadow-lg">
+    <Image
+      src="/images/phimage1.png"
+      alt=""
+      fill
+      className="object-cover hover:scale-105 transition-transform duration-300"
+      sizes="(max-width: 768px) 100vw, 50vw"
+    />
+  </div>
+</div>
+       
+ 
+
+          
         </div>
       </div>
     </section>
   )
 }
 
-export default ImageSection
+export default About

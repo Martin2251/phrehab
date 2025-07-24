@@ -10,6 +10,7 @@ import CalendlyWidget from '@/components/Calendy/Widget'
 import Hero from '@/components/Hero/Hero'
 import FindUs from '@/components/FindUs/FindUs'
 import ImageSection from '@/components/ImageSection/ImageSection'
+import About from '@/components/ImageSection/ImageSection'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
@@ -20,7 +21,7 @@ const Home: NextPage = () => {
        <ToastContainer />
       <Head>
         <title>Phrehab</title>
-        <meta name="description" content="Phrehab - A mobile responsive site" />
+        <meta name="description" content="Phrehab - Physio at London Bridge" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -28,6 +29,11 @@ const Home: NextPage = () => {
 
       <main className="">
         <Hero  />
+          <About  />
+             <CalendlyWidget 
+            url="https://calendly.com/phsportsrehab/1-hour-appointment" 
+            height={630}
+          />
         <FindUs  />
 
 
@@ -35,11 +41,8 @@ const Home: NextPage = () => {
 
 
         
-          <CalendlyWidget 
-            url="https://calendly.com/phsportsrehab/1-hour-appointment" 
-            height={630}
-          />
-          <ImageSection  />
+       
+        
 
       </main>
 
