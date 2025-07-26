@@ -23,12 +23,12 @@ const About = () => {
 
               
               <div className="pt-4 lg:pt-6">
-                <Link 
-                  href="/book-appointment"
+                <a
+                 href="#booking"
                   className="inline-block bg-black text-white px-8 py-3 sm:px-10 sm:py-4 rounded-full text-base sm:text-lg font-medium hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 transform"
                 >
                   Book Now
-                </Link>
+                </a>
               </div>
             </div>
           </div>

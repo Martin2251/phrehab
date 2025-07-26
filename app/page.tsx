@@ -30,10 +30,16 @@ const Home: NextPage = () => {
       <main className="">
         <Hero  />
           <About  />
+          
+
+          <div id="booking">
              <CalendlyWidget 
             url="https://calendly.com/phsportsrehab/1-hour-appointment" 
             height={630}
+        
           />
+          </div>
+          
         <FindUs  />
 
 
