@@ -23,6 +23,10 @@ const Home: NextPage = () => {
         <title>Phrehab</title>
         <meta name="description" content="Phrehab - Physio at London Bridge" />
         <link rel="icon" href="/favicon.ico" />
+           <meta 
+          httpEquiv="Permissions-Policy" 
+          content="payment=*, microphone=*, camera=*" 
+        />
       </Head>
 
 
