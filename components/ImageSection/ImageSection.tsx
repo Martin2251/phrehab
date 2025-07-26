@@ -37,7 +37,7 @@ const About = () => {
   {/* Left Image */}
   <div className="relative h-64 sm:h-80 lg:h-96 xl:h-[28rem] rounded-lg overflow-hidden shadow-lg">
     <Image
-      src="/images/phimage2.png" 
+      src="/Images/phimage2.png" 
       alt="physio image"
       fill
       className="object-cover hover:scale-105 transition-transform duration-300"
@@ -49,7 +49,7 @@ const About = () => {
   {/* Right Image */}
   <div className="relative h-64 sm:h-80 lg:h-96 xl:h-[28rem] rounded-lg overflow-hidden shadow-lg">
     <Image
-      src="/images/phimage1.png"
+      src="/Images/phimage1.png"
       alt="physio image"
       fill
       className="object-cover hover:scale-105 transition-transform duration-300"
