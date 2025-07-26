@@ -38,7 +38,7 @@ const About = () => {
   <div className="relative h-64 sm:h-80 lg:h-96 xl:h-[28rem] rounded-lg overflow-hidden shadow-lg">
     <Image
       src="/images/phimage2.png" 
-      alt=""
+      alt="physio image"
       fill
       className="object-cover hover:scale-105 transition-transform duration-300"
       sizes="(max-width: 768px) 100vw, 50vw"
@@ -49,7 +49,7 @@ const About = () => {
   <div className="relative h-64 sm:h-80 lg:h-96 xl:h-[28rem] rounded-lg overflow-hidden shadow-lg">
     <Image
       src="/images/phimage1.png"
-      alt=""
+      alt="physio image"
       fill
       className="object-cover hover:scale-105 transition-transform duration-300"
       sizes="(max-width: 768px) 100vw, 50vw"
