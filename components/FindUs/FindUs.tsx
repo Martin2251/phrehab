@@ -12,7 +12,7 @@ const FindUs = () => {
           {/* Left Column - Text Content */}
           <div className="space-y-6 lg:space-y-8">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
-              About the Clinic
+             Find Us
             </h2>
             
             <div className="space-y-4 lg:space-y-6">
@@ -45,12 +45,12 @@ const FindUs = () => {
               </div>
               
               <div className="pt-4 lg:pt-6">
-                {/* <Link 
-                  href="/book-appointment"
+                <a
+                  href="#booking"
                   className="inline-block bg-black text-white px-8 py-3 sm:px-10 sm:py-4 rounded-full text-base sm:text-lg font-medium hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 transform"
                 >
                   Book Now
-                </Link> */}
+                </a>
               </div>
             </div>
           </div>
