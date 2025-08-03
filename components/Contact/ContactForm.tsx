@@ -55,9 +55,9 @@ export default function ContactForm() {
     } catch (error) {
       // Handle Zod validation errors
       if (error instanceof z.ZodError) {
-        console.log('Validation errors:', error.errors);
-        if (error.errors && Array.isArray(error.errors)) {
-          error.errors.forEach((err) => {
+        console.log('Validation errors:', error.issues);
+        if (error.issues && Array.isArray(error.issues)) {
+          error.issues.forEach((err) => {
             if (err.path && err.path[0]) {
               setError(err.path[0] as keyof FormData, {
                 type: 'manual',
@@ -72,8 +72,8 @@ export default function ContactForm() {
   };
 
   return (
+  
       <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
- 
       <h2 className="text-2xl font-bold mb-6 text-gray-800">Contact Form</h2>
       
       <div className="space-y-4">
