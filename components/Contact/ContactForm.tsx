@@ -14,7 +14,7 @@ const formSchema = z.object({
 // Infer TypeScript type from schema
 type FormData = z.infer<typeof formSchema>;
 
-export default function BasicForm() {
+export default function ContactForm() {
   const {
     register,
     handleSubmit,
