@@ -32,33 +32,48 @@ export default function BasicForm() {
     try {
       const validatedData = formSchema.parse(data);
       
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      console.log('Form submitted:', validatedData);
-      toast.success(`Hello ${validatedData.name}! Form submitted successfully.`);
-      reset();
+      try {
+        // Simulate API call
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        
+        console.log('Form submitted:', validatedData);
+        console.log('About to reset form...');
+        
+        // Reset form with empty values
+        reset({
+          name: '',
+          email: ''
+        });
+        
+        toast.success(`Hello ${validatedData.name}! Form submitted successfully.`);
+        
+        console.log('Form reset completed');
+      } catch (apiError) {
+        console.error('API Error:', apiError);
+        toast.error('Something went wrong. Please try again.');
+      }
     } catch (error) {
       // Handle Zod validation errors
       if (error instanceof z.ZodError) {
-        error.errors.forEach((err) => {
-          if (err.path[0]) {
-            setError(err.path[0] as keyof FormData, {
-              type: 'manual',
-              message: err.message
-            });
-          }
-        });
+        console.log('Validation errors:', error.errors);
+        if (error.errors && Array.isArray(error.errors)) {
+          error.errors.forEach((err) => {
+            if (err.path && err.path[0]) {
+              setError(err.path[0] as keyof FormData, {
+                type: 'manual',
+                message: err.message
+              });
+            }
+          });
+        }
         toast.error('Please fix the errors above');
-      } else {
-        toast.error('Something went wrong. Please try again.');
       }
     }
   };
 
   return (
-    
       <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-md">
+ 
       <h2 className="text-2xl font-bold mb-6 text-gray-800">Contact Form</h2>
       
       <div className="space-y-4">
