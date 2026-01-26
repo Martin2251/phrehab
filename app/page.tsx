@@ -1,41 +1,71 @@
 // pages/index.tsx
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from '@/components/Header/Header'
-import InfoSection from '@/components/InfoSection/Infosection'
+
+
 import { ToastContainer } from 'react-toastify'
-import ContactForm from '@/components/ContactForm/ContactForm'
+
+
+import CalendlyWidget from '@/components/Calendy/Widget'
+import Hero from '@/components/Hero/Hero'
+import FindUs from '@/components/FindUs/FindUs'
+import ImageSection from '@/components/ImageSection/ImageSection'
+import About from '@/components/ImageSection/ImageSection'
+import ContactForm from '@/components/Contact/ContactForm'
+import ContactCard from '@/components/ContactUs'
+import ContactSection from '@/components/ContactUs'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
 
   return (
    
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-gray-100">
+    <div className="">
        <ToastContainer />
       <Head>
         <title>Phrehab</title>
-        <meta name="description" content="Phrehab - A mobile responsive site" />
+        <meta name="description" content="Phrehab - Physio at London Bridge" />
         <link rel="icon" href="/favicon.ico" />
+           <meta 
+          httpEquiv="Permissions-Policy" 
+          content="payment=*, microphone=*, camera=*" 
+        />
       </Head>
 
-      <Header />
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-6 text-center">
-        <h1 className="text-6xl font-bold mt-6">
-          Welcome to <a className="text-blue-600" href="#">Phrehab</a>
-        </h1>
-      
 
-        <InfoSection />
-        <ContactForm  />
+      <main className="">
+        <Hero  />
+          <About  />
+          
+
+          <div id="booking">
+             <CalendlyWidget 
+            url="https://calendly.com/phsportsrehab/1-hour-appointment" 
+            height={630}
+        
+          />
+          </div>
+          
+        <FindUs  />
+        <ContactSection  />
+        {/* <ContactForm  /> */}
+
+
+     
+
+
+        
+       
+        
+
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
+      {/* <footer className="flex h-24 w-full items-center justify-center border-t">
         <p className="text-gray-600">
           © {currentYear} PHREHAB. All rights reserved. Made by Martin Lowe
         </p>
-      </footer>
+      </footer> */}
     </div>
   )
 }
