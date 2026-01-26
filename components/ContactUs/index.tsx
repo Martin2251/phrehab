@@ -10,7 +10,7 @@ const ContactSection = () => {
           Get in touch
         </h2>
         <p className="mt-4 text-lg text-gray-600 italic">
-          "I aim to get back in touch as soon as I can when contacted."
+          "I aim to get back in touch as soon as I can."
         </p>
 
         {/* Contact Links */}
