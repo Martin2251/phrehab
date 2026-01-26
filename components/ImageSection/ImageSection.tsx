@@ -15,8 +15,27 @@ const About = () => {
             
             <div className="space-y-4 lg:space-y-6">
               <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
-           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus molestias possimus quidem corporis labore ipsum debitis voluptate enim facilis necessitatibus?
+         <strong> I’m Prince – a Physiotherapist who understands that “rest” isn’t always the
+answer.</strong>
               </p>
+                   <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed ">
+       As an avid Weightlifter with a BSc in Sports and Exercise Science, I am fully aware
+of the frustrations that come with being sidelined by injury. While exploring career
+paths I fell in love with the rehab aspect of exercise and earned my second degree in
+Physiotherapy in 2021. This gives me the “best of both worlds” approach to rehab.
+              </p>
+                    
+      <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed ">
+    Currently, I spend my time working in MSK within the NHS and on the sidelines of
+Rugby Union. I’ve assisted countless individuals in managing their pain and hitting
+their goals regardless of their skill level.
+              </p>
+              <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed ">
+          If you want to understand your body better and find a way to train around your
+injuries rather than just stopping altogether, let’s talk. <strong>Enquire today to get started.</strong>
+              </p>
+              
+       
               
             
               

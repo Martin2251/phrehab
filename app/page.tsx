@@ -12,6 +12,8 @@ import FindUs from '@/components/FindUs/FindUs'
 import ImageSection from '@/components/ImageSection/ImageSection'
 import About from '@/components/ImageSection/ImageSection'
 import ContactForm from '@/components/Contact/ContactForm'
+import ContactCard from '@/components/ContactUs'
+import ContactSection from '@/components/ContactUs'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
@@ -46,6 +48,7 @@ const Home: NextPage = () => {
           </div>
           
         <FindUs  />
+        <ContactSection  />
         {/* <ContactForm  /> */}
 
 
