@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           />
           </div> */}
           
-        <FindUs  />
+        {/* <FindUs  /> */}
         <ContactSection  />
         {/* <ContactForm  /> */}
 
