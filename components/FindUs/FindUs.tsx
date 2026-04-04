@@ -17,8 +17,8 @@ const FindUs = () => {
             
             <div className="space-y-4 lg:space-y-6">
               <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
-                The clinic is based in GymNation, making it the perfect 
-                calm and quiet setting for your appointment. 
+                The clinic is based in Mem's Weightlifting Club, making it the perfect 
+               setting for your appointment. 
               </p>
               
               <div className="space-y-3 lg:space-y-4">
@@ -27,10 +27,10 @@ const FindUs = () => {
                     Address:
                   </h3>
                   <p className="text-base sm:text-lg text-gray-600">
-                   Gymnation 26 Druid St, London SE1 2EY
+                    Arch 25 22 Bondway, London SW8 1SQ
                   </p>
                   <p className="text-base sm:text-lg text-gray-600">
-                    SE1 2EY
+                    SW8 1SQ
                   </p>
                 </div>
                 
@@ -39,7 +39,7 @@ const FindUs = () => {
                     Nearest Station:
                   </h3>
                   <p className="text-base sm:text-lg text-gray-600">
-                   London Bridge
+                   Vauxhall
                   </p>
                 </div>
               </div>
@@ -60,8 +60,9 @@ const FindUs = () => {
           <div className="space-y-4 lg:space-y-6">
     
 
-        <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4442.139825158339!2d-0.08459536130298116!3d51.504330483466575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876039c80dde83d%3A0xb260ae9d8c72d7b!2sGym%20Nation%20%7C%20London%20Bridge!5e0!3m2!1sen!2suk!4v1753253507715!5m2!1sen!2suk" 
+
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.631528505096!2d-0.127790423344455!3d51.483277471807845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760530c9e8d16b%3A0xaac686a0a25c0bc!2sMem&#39;s%20Weightlifting%20Club!5e0!3m2!1sen!2suk!4v1775306238072!5m2!1sen!2suk" 
         width="600" 
         height="450" 
         style={{ border: 0 }}
