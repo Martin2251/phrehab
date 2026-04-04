@@ -14,6 +14,7 @@ import About from '@/components/ImageSection/ImageSection'
 import ContactForm from '@/components/Contact/ContactForm'
 import ContactCard from '@/components/ContactUs'
 import ContactSection from '@/components/ContactUs'
+import Footer from '@/components/Footer'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
@@ -60,6 +61,7 @@ const Home: NextPage = () => {
         
 
       </main>
+      <Footer  />
 
       {/* <footer className="flex h-24 w-full items-center justify-center border-t">
         <p className="text-gray-600">
