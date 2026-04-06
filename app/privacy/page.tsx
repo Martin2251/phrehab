@@ -1,9 +1,11 @@
+import ButtonFooter from '@/components/ButtonFooter';
+import Link from 'next/link';
 import React from 'react';
 
 const PrivacyPolicy = () => {
   const sectionStyle = { marginBottom: '30px' };
   const headerStyle = { borderBottom: '2px solid #333', marginBottom: '20px', paddingBottom: '10px' };
-  const listStyle = { lineHeight: '1.8' };
+ 
 
   return (
     <div style={{ maxWidth: '850px', margin: '0 auto', padding: '40px 20px', fontFamily: 'Arial, sans-serif', color: '#222' }}>
@@ -26,13 +28,23 @@ As we hold special category data known as “health related information”, the 
 </p>
 <p><strong>What information we hold and what we do with it </strong></p>
 <p>The information we hold includes your: </p>
-  <ul>
+ <ul style={{ 
+  listStyleType: 'disc', 
+  paddingLeft: '30px', 
+  marginTop: '10px', 
+  marginBottom: '10px' 
+}}>
     <li>Personal and contact details.  </li>
     <li>Medical history and other health-related information; including physical and  mental health, family, lifestyle, social, employment and education details.  </li>
     <li>Treatment details and related notes.  </li>
   </ul>
   <p>We might use your information in the following ways:  </p>
-  <ul>
+  <ul style={{ 
+  listStyleType: 'disc', 
+  paddingLeft: '30px', 
+  marginTop: '10px', 
+  marginBottom: '10px' 
+}}>
     <li>For our own record keeping.  </li>
     <li>To provide you with the highest levels of care, treatment and customer  service.  </li>
     <li>As a patient, we may need to contact you by email, phone or through the post.  Our primary means of contact is email. We may forward appointment reminders  to you and may need to liaise about payment matters.  </li>
@@ -53,7 +65,12 @@ warranties as to the level of security afforded to your data. We will, however, 
 </p>
 <p><strong>Your Rights  </strong></p>
 <p>GDPR gives you the following rights:  </p>
-<ul>
+<ul style={{ 
+  listStyleType: 'disc', 
+  paddingLeft: '30px', 
+  marginTop: '10px', 
+  marginBottom: '10px' 
+}}>
   <li>The right to be informed: To know how your information will be held and used  (this notice).  </li>
   <li>The right of access: To see your therapist’s records of your personal  information, so you know what is held about you and can verify it.  </li>
   <li>The right to rectification: To tell your therapist to make changes to your  personal information if it is incorrect or incomplete.  </li>
@@ -71,7 +88,12 @@ warranties as to the level of security afforded to your data. We will, however, 
       <section>
       <p><strong>Therapist’s rights  </strong></p>
       <p>Please note: </p>
-      <ul>
+      <ul style={{ 
+  listStyleType: 'disc', 
+  paddingLeft: '30px', 
+  marginTop: '10px', 
+  marginBottom: '10px' 
+}}>
         <li> If you do not agree to us keeping records of information about you and your  treatments, or if you do not allow us to use the information in the way we need  to for treatments, we may not be able to treat you. </li>
         <li>We must keep your records of treatment for a certain period as described  above, which may mean that even if you ask us to erase any details about you,  we might have to keep these details until after that period has passed.  </li>
         <li>We can move your records between our computers and IT systems, as long as  your details are protected from being seen by others without your permission.  </li>
@@ -82,7 +104,8 @@ We may update our Privacy Policy from time to time. We will notify you of any  c
       <p><strong>Further information </strong></p>
       <p>For further information regarding our personal data processing please see our  data protection register entry details on the Information Commissioner’s Office  website at <a href="https://www.ico.org.uk" target="_blank" rel="noopener noreferrer">https://www.ico.org.uk</a>.</p>
       </section>
-      
+<ButtonFooter />
+
       
     </div>
   );

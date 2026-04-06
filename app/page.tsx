@@ -15,6 +15,7 @@ import ContactForm from '@/components/Contact/ContactForm'
 import ContactCard from '@/components/ContactUs'
 import ContactSection from '@/components/ContactUs'
 import Footer from '@/components/Footer'
+import Booking from '@/components/Booking'
 
 const Home: NextPage = () => {
   const currentYear = new Date().getFullYear()
@@ -39,17 +40,12 @@ const Home: NextPage = () => {
         <Hero  />
           <About  />
           
-{/* 
+
           <div id="booking">
-             <CalendlyWidget 
-            url="https://calendly.com/phsportsrehab/1-hour-appointment" 
-            height={630}
-        
-          />
-          </div> */}
+       <Booking  />
+          </div>
           
         <FindUs  />
-        <ContactSection  />
         {/* <ContactForm  /> */}
 
 
