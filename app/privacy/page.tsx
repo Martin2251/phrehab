@@ -5,6 +5,12 @@ import React from 'react';
 const PrivacyPolicy = () => {
   const sectionStyle = { marginBottom: '30px' };
   const headerStyle = { borderBottom: '2px solid #333', marginBottom: '20px', paddingBottom: '10px' };
+const linkStyle = {
+  color: '#000',
+  textDecoration: 'underline' as const, // Added as const
+  fontWeight: '500' as const,        // Added as const
+  wordBreak: 'break-all' as const    // This fixes your specific error
+};
  
 
   return (
@@ -79,9 +85,23 @@ warranties as to the level of security afforded to your data. We will, however, 
   <li>The right to data portability: Under certain circumstances you can request a  copy of personal information held electronically so you can reuse it in other  systems.  </li>
   <li>The right to object: To be able to tell your therapist you don’t want them to  use certain parts of your information, or only to use it for certain purposes. </li>
   <li>The right to lodge a complaint with the Information Commissioner’s Office: To  be able to complain to the ICO if you feel your details are not correct, if they are  not being used in a way that you have given permission for, or if they are being  stored when they don’t have to be.  </li>
-  <li>Full details of your rights can be found at <a href="https://ico.org.uk/for organisations/guide-to-the-general-data-protection-regulation-gdpr/individual rights/" target="_blank" rel="noopener noreferrer">https://ico.org.uk/for organisations/guide-to-the-general-data-protection-regulation-gdpr/individual rights/</a>.</li>
+  <li>Full details of your rights can be found at <a 
+              href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={linkStyle}
+            >
+              ICO Individual Rights Guide
+            </a>.</li>
   <li>If you wish to exercise any of these rights or you would like to find out more  about your rights, please use the contact details given above.  </li>
-  <li>If you are dissatisfied with the response you can complain to the Information  Commissioner’s Office; their contact details are at:<a href="https://www.ico.org.uk" target="_blank" rel="noopener noreferrer">https://www.ico.org.uk</a></li>
+  <li>If you are dissatisfied with the response you can complain to the Information  Commissioner’s Office; their contact details are at:<a 
+            href="https://www.ico.org.uk" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            style={linkStyle}
+          >
+            ICO Website
+          </a>.</li>
 
 </ul>
       </section>
@@ -102,7 +122,14 @@ We may update our Privacy Policy from time to time. We will notify you of any  c
 </li>
       </ul>
       <p><strong>Further information </strong></p>
-      <p>For further information regarding our personal data processing please see our  data protection register entry details on the Information Commissioner’s Office  website at <a href="https://www.ico.org.uk" target="_blank" rel="noopener noreferrer">https://www.ico.org.uk</a>.</p>
+      <p>For further information regarding our personal data processing please see our  data protection register entry details on the Information Commissioner’s Office  website at <a 
+              href="https://www.ico.org.uk" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={linkStyle}
+            >
+              ICO website
+            </a>.</p>
       </section>
 <ButtonFooter />
 
