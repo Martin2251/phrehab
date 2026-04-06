@@ -1,3 +1,5 @@
+"use client";
+import Link from 'next/link';
 import React from 'react';
 
 const TermsOfService = () => {
@@ -9,92 +11,189 @@ const TermsOfService = () => {
       </header>
 
       <section>
-        <h2>1. Background & Agreement</h2>
+        <h2>1. Background</h2>
+    
         <p>
-          These Terms of Sale govern the physiotherapy services provided to Consumers by <strong>PH Sports Rehab</strong>. 
-          By making a Booking, you agree to be bound by these terms. This contract includes all information provided 
-          on our website, via telephone, or in person that you rely on when booking.
+         These Terms of Sale set out the terms and conditions on which physiotherapy services  are provided by Us to Consumers.  
         </p>
-        <p><em>Note: These terms apply to face-to-face services only. Website use is governed by separate terms.</em></p>
+    
+        <p>Please read these Terms carefully before booking an appointment. By making a Booking,  You agree to be bound by these Terms.  </p>
+        <p>All information We provide to You, whether on Our website, by telephone, or in person,  forms part of the contract between You and Us where You rely on it when deciding to  book or attend Physiotherapy Services.  </p>
+        <p>These Terms apply only to face-to-face physiotherapy services. Terms governing use of  Our website are separate and available on Our Site under “Website Terms of Use”.  </p>
       </section>
 
       <section>
-        <h2>2. Our Details</h2>
-        <p>
-          <strong>PH Sports Rehab</strong> is the trading name of <strong>Prince Haastrup</strong>. 
-          We are registered with the Health and Care Professions Council (HCPC) and are members of the 
-          Chartered Society of Physiotherapy (CSP).
-        </p>
+        <h2>Definitions and Interpretation  </h2>
+        <p><strong>In these Terms:  </strong></p>
+        <p><strong>"Booking</strong></p>
+        <p>means a reservation made by You for face-to-face physiotherapy services, whether for a  single appointment or a block of appointments, booked online or by telephone.  </p>
+        <p><strong>"Booking Confirmation"</strong></p>
+        <p>means Our confirmation of Your Booking, provided verbally or by email.  </p>
+          <p><strong>"Consumer / You / Your"</strong></p>
+        <p>means an individual patient booking Physiotherapy Services for personal use and not  for business purposes.  </p>
+        <p><strong>“Contract” </strong></p>
+        <p>means the legally binding agreement between You and Us for the provision of  Physiotherapy Services, formed when We issue a Booking Confirmation.  </p>
+        <p><strong>“Physiotherapy Services” </strong></p>
+        <p>means face-to-face physiotherapy services provided at Our clinical premises, including  assessment, examination, diagnosis, advice, treatment, rehabilitation, and exercise  prescription.  </p>
+        <p><strong>“We / Us / Our” </strong></p>
+        <p>means Prince Haastrup, trading as PH Sports Rehab. 
+Information About Us  
+</p>
+<p>Our Site, phsports.rehab, is owned and operated by Prince Haastrup, trading as PH  Sports Rehab.</p>
+    
         <address style={{ fontStyle: 'normal', backgroundColor: '#f9f9f9', padding: '15px', borderRadius: '5px' }}>
           Mem's Weightlifting Club,<br />
           Arch 22 & 25, 22 Bondway,<br />
           London SW8 1SQ
         </address>
+        <p>We are registered with the Health and Care Professions Council (HCPC).  We are a member of the Chartered Society of Physiotherapy (CSP).  We are not a limited company.  </p>
       </section>
+     <section>
+      <p><strong>Consumers Only and Age Restriction </strong></p>
+      <p>Only Consumers aged 18 years or over may book Physiotherapy Services.  These Terms do not apply to business-to-business services.</p>
+      <p><strong>Bookings, Pricing and Availability  </strong></p>
+      <p>Physiotherapy Services are provided by appointment only.  
+Bookings may be made online via Our Site or by telephone. Availability is subject to  clinician availability.  
+All prices are communicated before Booking and must be agreed before services are  provided.  
+</p>
+<p><strong>How the Contract Is Formed </strong></p>
+<p>When You make a Booking, You are making an oƯer to purchase Physiotherapy Services. A Contract is formed only when We confirm Your Booking.  
+Your Booking Confirmation will include: </p>
 
-      <section>
-        <h2>3. Bookings & Eligibility</h2>
-        <ul>
-          <li><strong>Age:</strong> You must be 18 years or older to book.</li>
-          <li><strong>Confirmation:</strong> A legally binding contract is formed only once we issue a Booking Confirmation (via email or verbally).</li>
-          <li><strong>Inclusions:</strong> Services include assessment, diagnosis, advice, treatment, and exercise prescription.</li>
-        </ul>
-      </section>
+<ul style={{ 
+  listStyleType: 'disc', 
+  paddingLeft: '30px', 
+  marginTop: '10px', 
+  marginBottom: '10px' 
+}}>
+  <li>
+    Appointment date, time and location  
+  </li>
+  <li>Type and duration of Physiotherapy Services  </li>
+  <li>Price payable  </li>
+  <li>Cancellation policy  </li>
 
-      <section>
-        <h2>4. Payment & Fees</h2>
-        <p>
-          Prices are communicated before booking. Payment is due in advance or at the time of the appointment. 
-          Failure to pay may result in the cancellation or suspension of future appointments.
-        </p>
-      </section>
+</ul>
 
-      <section>
-        <h2>5. Cancellations & No-Shows</h2>
-        <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '10px' }}>
-          <thead>
-            <tr style={{ textAlign: 'left', borderBottom: '1px solid #ddd' }}>
-              <th style={{ padding: '10px' }}>Notice Given</th>
-              <th style={{ padding: '10px' }}>Policy</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Over 48 Hours</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>No charge / Reschedule allowed</td>
-            </tr>
-            <tr>
-              <td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Under 48 Hours / Missed</td>
-              <td style={{ padding: '10px', borderBottom: '1px solid #eee' }}>Full appointment fee charged</td>
-            </tr>
-          </tbody>
-        </table>
-        <p><small>Under the Consumer Contracts Regulations 2013, you have a 14-day right to cancel, though this is lost once services have been fully performed.</small></p>
-      </section>
+<p><strong>Payment  </strong></p>
+<p>Payment for Physiotherapy Services must be made either in advance or at the time of  the appointment unless otherwise agreed.  </p>
+<p>We accept payment methods as stated on Our Site or advised at the time of Booking.  </p>
+<p>If payment is not received, We reserve the right to cancel the aƯected Booking. Where  payment remains outstanding, We may also suspend or cancel future bookings until  payment has been received. This does not aƯect Your statutory consumer rights. </p>
+</section>
+<section>
+  <p><strong>Cancellations, Rescheduling and Missed Appointments </strong></p>
+  <p>If You need to cancel or reschedule an appointment, You must give at least 48 hours’  notice.  </p>
+  <p>If You cancel with less than 48 hours’ notice or fail to attend, We reserve the right to  charge the full appointment fee, reflecting the time reserved and the likelihood that the  appointment cannot be reallocated.  </p>
+  <p>We may, at Our discretion, waive cancellation fees in exceptional circumstances.  </p>
 
-      <section>
-        <h2>6. Health, Safety & Liability</h2>
-        <p>
-          By attending, you confirm you have disclosed all medical conditions and injuries. 
-          While we provide services with professional care and skill, we do not guarantee specific outcomes. 
-          Physiotherapy carries inherent risks, and you should seek advice from a GP if you have specific health concerns.
-        </p>
-      </section>
+  <p><strong>Your Right to Cancel (Consumer Law) </strong></p>
+  <p>Under the Consumer Contracts (Information, Cancellation and Additional Charges)  Regulations 2013, You have the right to cancel a Booking within 14 days of  confirmation.  </p>
+  <p>However, if You request that Physiotherapy Services begin within that 14-day period,  You acknowledge that:  </p>
+  
+  <ul style={{ 
+  listStyleType: 'disc', 
+  paddingLeft: '30px', 
+  marginTop: '10px', 
+  marginBottom: '10px' 
+}}>
+    <li>Your right to cancel will be lost once services have been fully performed; and  </li>
+    <li>If You cancel after services have started, You may be required to pay for services  already provided.  </li>
+  </ul>
 
-      <section>
-        <h2>7. Complaints</h2>
-        <p>
-          If you have concerns, please contact us immediately:
-        </p>
-        <ul>
-          <li><strong>Email:</strong> prince@phsports.rehab</li>
-          <li><strong>ADR:</strong> Unresolved complaints may be referred to an Alternative Dispute Resolution provider.</li>
-        </ul>
-      </section>
+  <p><strong>Provision of Physiotherapy Services  </strong></p>
+  <p>Physiotherapy Services will be provided with reasonable care and skill in accordance  with professional standards.  </p>
+  <p>We may, where necessary, substitute another suitably qualified physiotherapist. 
+We do not guarantee any specific outcome. Results vary depending on individual  circumstances.  
+</p>
+<p><strong>Health, Safety and Fitness  </strong></p>
+<p>By attending Physiotherapy Services, You confirm that:  </p>
 
-      <footer style={{ marginTop: '40px', fontSize: '0.9em', color: '#888' }}>
-        <p>These terms are governed by the laws of England and Wales.</p>
-      </footer>
+<ul style={{ 
+  listStyleType: 'disc', 
+  paddingLeft: '30px', 
+  marginTop: '10px', 
+  marginBottom: '10px' 
+}}>
+  <li>You have disclosed any relevant medical conditions, injuries or limitations;  </li>
+  <li>You will follow advice provided during sessions;  </li>
+  <li>You understand that physiotherapy carries inherent risks even when properly  delivered. </li>
+</ul>
+
+<p>If You have concerns about Your health, You should seek advice from Your GP or  appropriate healthcare professional before attending.  </p>
+<p><strong>Our Liability  </strong></p>
+<p>Nothing in these Terms excludes or limits liability for death or personal injury caused by  negligence, fraud, or any liability that cannot be excluded by law.  </p>
+<p>We will not be liable for indirect or consequential losses, including loss of income or  business.  </p>
+<p><strong>Complaints  </strong></p>
+<p>If You have a complaint, please contact Us as soon as possible so We can attempt to  resolve the matter. </p>
+<p>Complaints may be made by:  </p>
+
+<ul style={{ 
+  listStyleType: 'disc', 
+  paddingLeft: '30px', 
+  marginTop: '10px', 
+  marginBottom: '10px' 
+}}>
+  <li>Email: prince@phsports.rehab  
+  </li>
+  <li>Telephone: using the contact details on Our Site  </li>
+  </ul>
+  
+  <p>If a complaint cannot be resolved, You may be entitled to refer it to an Alternative  Dispute Resolution provider. Further information is available from Citizens Advice.</p>
+  <p><strong>Data Protection  </strong></p>
+  <p>We use personal data in accordance with Our Privacy Notice, available on Our Site. 
+Other Important Terms  
+</p>
+<p>We may transfer Our rights and obligations if We sell or transfer Our business. Your  rights will not be aƯected. </p>
+<p>The Contract is between You and Us. No third party has rights to enforce it.  </p>
+<p>If any part of these Terms is found unenforceable, the remaining provisions remain in  eƯect. </p>
+<p><strong>Law and Jurisdiction </strong></p>
+<p>These Terms and any dispute arising from them are governed by the law of England and  Wales.  </p>
+<p>These Terms of Sale apply to all bookings made on or after 12 March 2026. </p>
+
+
+</section>
+
+    
+<footer style={{ marginTop: '50px', textAlign: 'center' }}>
+  <div style={{ 
+    display: 'flex', 
+    flexDirection: 'column', 
+    alignItems: 'center', 
+    gap: '20px' 
+  }}>
+    <Link href="/" style={{ textDecoration: 'none' }}>
+      <span
+        style={{
+          display: 'inline-block',
+          padding: '12px 40px',
+          fontSize: '1rem',
+          fontWeight: '600',
+          color: '#fff',
+          backgroundColor: '#222', // Deep charcoal for a professional look
+          borderRadius: '4px',
+          cursor: 'pointer',
+          transition: 'all 0.2s ease',
+          border: '1px solid #222',
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.backgroundColor = '#fff';
+          e.currentTarget.style.color = '#222';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.backgroundColor = '#222';
+          e.currentTarget.style.color = '#fff';
+        }}
+      >
+        Return to Home
+      </span>
+    </Link>
+    
+    <p style={{ fontSize: '0.8rem', color: '#999' }}>
+      © {new Date().getFullYear()} PH Sports Rehab
+    </p>
+  </div>
+</footer>
+
     </div>
   );
 };
