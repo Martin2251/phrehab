@@ -38,14 +38,17 @@ const Home: NextPage = () => {
 
       <main className="">
         <Hero  />
-          <About  />
+        <div id="about">
+          <About />
+          </div>
           
 
           <div id="booking">
        <Booking  />
           </div>
-          
+          <div id="findus">
         <FindUs  />
+        </div>
         {/* <ContactForm  /> */}
 
 
