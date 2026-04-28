@@ -17,7 +17,7 @@ const FindUs = () => {
             
             <div className="space-y-4 lg:space-y-6">
               <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
-                The clinic is based in Mem's Weightlifting Club, within Arch 25. 
+                The clinic is based in Mem's Weightlifting Club, within Arch 22. 
               </p>
               
               <div className="space-y-3 lg:space-y-4">
@@ -26,7 +26,7 @@ const FindUs = () => {
                     Address:
                   </h3>
                   <p className="text-base sm:text-lg text-gray-600">
-                    Mem's Weightlifting Club, Arch 22 & 25 Bondway, London SW8 1SQ
+                    Mem's Weightlifting Club, Arch 22 Bondway, London 
                   </p>
                   <p className="text-base sm:text-lg text-gray-600">
                     SW8 1SQ
